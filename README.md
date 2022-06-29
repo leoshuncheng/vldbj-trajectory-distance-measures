@@ -1,4 +1,4 @@
-# A survey of trajectory distance measures and performance evaluation
+# A Survey of Trajectory Distance Measures and Performance Evaluation
 ![figure](figure.jpg)
 The Java implementation of the following paper:
 - Han Su, Shuncheng Liu, Bolong Zheng, Xiaofang Zhou, Kai Zheng*: [A Survey of Trajectory Distance Measures and Performance Evaluation](https://leoshuncheng.github.io/pap/vldbj_2020_su.pdf). VLDBJ 2020
