@@ -87,12 +87,13 @@ public class FileService {
                     if (trajectoryList.size() == 5000)
                         break;
                 }
-                // close file
-                buffer.close();
             }
         } catch (IOException e) {
             System.out.println("Error opening input files.");
             e.printStackTrace();
+        } finally {
+            // close file
+            buffer.close();
         }
         return trajectoryList;
     }
